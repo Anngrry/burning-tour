@@ -1,6 +1,7 @@
 body {
 	background-attachment:fixed;
     margin: 0;
+	padding:0;
     line-height: 1.6;
     background: url('images/fon.jpg');
     background-size: cover;
@@ -482,6 +483,12 @@ header {
 }
 
 
+.tour-info {
+	margin-top: 65%;
+
+
+}
+
 .comment {
     text-align: center;
     font-weight: 300;
@@ -519,7 +526,7 @@ header {
     color: white;
     font-size: 30px;
     width: 90%;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
     font-family: Montserrat;
     text-align: center;
     align-items: center;
@@ -743,6 +750,7 @@ header {
 
   .fire-section {
 	margin: 0 0;
+	padding: 0;
 	height: 20%;
 	display: flex;
 	flex-direction: column;
@@ -752,34 +760,27 @@ header {
   }
   
   .flame {
+	  padding: 0;
+	  margin: 0 ;
 		text-align: center;
-		width: 10em;
-		height: 9em;
-		font-size: 300px;
+		width: 13em;
+		height: 8em;
+		font-size: 200px;
 		position: relative;
 		z-index: 10;
-  }
-
-  .flame2 {
-	text-align: right;
-	width: 10em;
-	height: 12em;
-	font-size: 50px;
-	position: relative;
-
   }
   
   .flame span {
 	position: absolute;
-	width: 5em;
-	height: 7em;
+	width: 6em;
+	height: 5em;
 	background: radial-gradient(
 		orangered 20%,
 		rgba(255, 69, 0, 0) 70%
 	);
 	border-radius: 50%;
-	bottom: -19%;
-	left: calc((var(--n) - 1) * 5em / var(--particles));
+	bottom: -5%;
+	left: calc((var(--n) - 1) * 25em / var(--particles));
 	mix-blend-mode: screen;
 	animation: rise 1s ease-in infinite;
 	animation-delay: calc(var(--rnd) * 1s);
@@ -788,7 +789,7 @@ header {
   @keyframes rise {
 	from {
 		transform: translateY(0) scale(1);
-		filter: opacity(0);
+		filter: opacity(-1);
 	}
 	
 	25% {
@@ -797,14 +798,23 @@ header {
 	
 	to {
 		transform: translateY(-10em) scale(0);
-		filter: opacity(0);
+		filter: opacity(-1);
 	}
   }
 
 /*meeeeeeeeeeeeeedia*/
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1680px) {
+	.slider__item_text2{
+	font-size: 30px;
+margin: 0 auto;
+width: 90vh;
+top: 20%; }
  
+.slider_item_text {
+			top: 12%;
+		}
+
 }
 
 @media (max-width: 1050px) {
