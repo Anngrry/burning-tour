@@ -16,7 +16,6 @@ $('.menu_link_btn').on('click', function(e){
 	$('.poloska_active').toggleClass('poloska_act');
 });
 
-
 const COUNT_OF_PARTICLES = 100
 const container = document.querySelector('.flame')
 
