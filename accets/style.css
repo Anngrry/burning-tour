@@ -679,7 +679,7 @@ header {
 	margin: 0 auto;
 	width: 80vw;
 	top: 2%;
-; }
+ }
 
  .slider__item_text {
 			top: 2%;
@@ -968,17 +968,21 @@ header {
 	}
 
 	.slider__item_text{
-		font-size: 19px;
+		font-size: 20px;
 		margin: 0 auto;
-		width: auto;
+		width: 80vw;
 		top: 12%;
+		text-align: justify;
+		line-height: 1.4;
 	}
 
 	.slider__item_text2{
-		font-size: 14px;
+		font-size: 16px;
 		margin: 0 auto;
-		width: auto;
+		width: 80vw;
 		top: 8%;
+		text-align: justify;
+		line-height: 1.4;
 	}
 
 	.flame  {
@@ -1015,8 +1019,54 @@ header {
     width: 80%;
     text-align: justify;
     line-height: 1.4;
+
 }
   
+.slider__item1 {
+    background: #0000006e center no-repeat;
+        background-size: auto;
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.slider__item2 {
+    background: #0000006e center no-repeat;
+        background-size: auto;
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.slider__item3 {
+    background: #0000006e center no-repeat;
+        background-size: auto;
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.slider__item4 {
+    background: #0000006e center no-repeat;
+        background-size: auto;
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.slider__item5 {
+    background: #0000006e center no-repeat;
+        background-size: auto;
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+
+}
+
 
 
 }
