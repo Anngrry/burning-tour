@@ -805,7 +805,7 @@ header {
 
 /*meeeeeeeeeeeeeedia*/
 
-  @media (max-width: 1700px) and (min-width: 1300px) {
+  @media (max-width: 1600px) {
 	.slider__item_text2{
 	font-size: 30px;
 	margin: 0 auto;
@@ -838,7 +838,7 @@ header {
 
 }
 
-@media (max-width: 1300px) and (min-width: 1070px) {
+@media (max-width: 1300px) {
 	.flame {
 	    padding: 0;
     margin: 0;
@@ -865,6 +865,18 @@ header {
 	text-align: justify;
 	line-height: 1.4;
 }
+
+.slider__item_text2{
+	font-size: 30px;
+	margin: 0 auto;
+	width: 130vh;
+	top: 15%; }
+
+  .slider__item_text {
+			top: 12%;
+			width: 100vh;
+			font-size: 33px;
+		}
 
 }
  
