@@ -760,15 +760,16 @@ header {
   }
   
   .flame {
-	  padding: 0;
-	  margin: 0 ;
-		text-align: center;
-		width: 13em;
-		height: 8em;
-		font-size: 200px;
-		position: relative;
-		z-index: 10;
-  }
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 25em;
+    height: 8em;
+    font-size: 100px;
+    position: relative;
+    z-index: 10;
+}
+  
   
   .flame span {
 	position: absolute;
@@ -804,25 +805,55 @@ header {
 
 /*meeeeeeeeeeeeeedia*/
 
-  @media (max-width: 1680px) {
+  @media (max-width: 1700px) and (min-width: 1300px) {
 	.slider__item_text2{
 	font-size: 30px;
 margin: 0 auto;
 width: 90vh;
-top: 20%; }
+top: 13%; }
  
 .slider_item_text {
 			top: 12%;
 		}
 
+
+
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1300px) and (min-width: 1070px) {
+	.flame {
+	    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 15em;
+    height: 7em;
+    font-size: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+
+}
+ 
+
+@media (max-width: 1070px) {
 	.slider__item_text2{		
 		font-size: 28px;
 		margin: 0 auto;
 		width: auto;
 		top: 12%; }
+
+
+		.flame {
+			padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 15em;
+		height: 7em;
+		font-size: 90px;
+		position: relative;
+		z-index: 10;
+	}
 	}
 
 
@@ -839,6 +870,18 @@ top: 20%; }
 		margin: 0 auto;
 		width: auto;
 		top: 12%; }
+
+		.flame {
+			padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 15em;
+		height: 7em;
+		font-size: 90px;
+		position: relative;
+		z-index: 10;
+	}
+
 	}
 
 
@@ -858,7 +901,48 @@ top: 20%; }
 		width: auto;
 		top: 10%;
 	}
+
+	.flame {
+	    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 15em;
+    height: 7em;
+    font-size: 90px;
+    position: relative;
+    z-index: 10;
 }
+}
+
+
+@media (min-width: 450px) and (max-width:550px) {
+
+	.slider__item_text{
+		font-size: 29px;
+		margin: 0 auto;
+		width: auto;
+		top: 12%;
+	}
+
+	.slider__item_text2{
+		font-size: 20px;
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.flame  {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 15em;
+		height: 7em;
+		font-size: 50px;
+		position: relative;
+		z-index: 10;
+	}
+
+}
+
 
 
 @media (max-width: 450px) {
@@ -902,5 +986,26 @@ top: 20%; }
 		width: auto;
 		top: 8%;
 	}
+
+	.flame  {
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			width: 17em;
+			height: 6em;
+			font-size: 50px;
+			position: relative;
+			z-index: 10;
+		}
+
+		 .request {
+    font-family: GothamR;
+	text-align: center;
+	color:white;
+    font-size: 50px;
+    margin-top: -12%;
+	z-index: 2;
+  }
+
 
 }
