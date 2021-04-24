@@ -870,10 +870,10 @@ header {
 	font-size: 30px;
 	margin: 0 auto;
 	width: 130vh;
-	top: 15%; }
+	top: 3%; }
 
   .slider__item_text {
-			top: 12%;
+			top: 1%;
 			width: 100vh;
 			font-size: 33px;
 		}
