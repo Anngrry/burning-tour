@@ -405,6 +405,7 @@ header {
 }
 
 
+
 .facts-tittle {
     font-family: GothamR;
 	text-align: center;
@@ -671,6 +672,33 @@ header {
   }
 
 /*meeeeeeeeeeeeeedia*/
+@media (max-width: 2600px) and (min-width:2000px) {
+
+
+			.description {
+				color: white;
+				font-size: 33px;
+				margin-bottom: 120px;
+				font-family: Montserrat;
+				text-align: center;
+				align-items: center;
+				margin-right: 7%;
+				margin-left: 7%;
+				margin-bottom: 10%;
+				display: flex;
+				flex-direction: column;
+				width: 87%;
+				text-align: justify;
+				line-height: 1.4;
+			}
+		
+
+
+
+}
+
+
+
 
 @media (max-width: 1920px) {
 
@@ -685,7 +713,22 @@ header {
 				width: 78vw;
 				font-size: 35px;
 			}
-	
+			.description {
+				color: white;
+				font-size: 33px;
+				margin-bottom: 120px;
+				font-family: Montserrat;
+				text-align: center;
+				align-items: center;
+				margin-right: 7%;
+				margin-left: 7%;
+				margin-bottom: 10%;
+				display: flex;
+				flex-direction: column;
+				width: 87%;
+			
+			}
+		
 
 
 
